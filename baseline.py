@@ -158,3 +158,5 @@ output = model(my_img)
 _, pred = torch.max(output.data, 1)
 print(pred)
 print(output.data)
+
+a = 1
